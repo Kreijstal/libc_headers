@@ -4,4 +4,4 @@
 #include <sys/types.h>
 
 extern int errno;
-
+#endif
