@@ -2,6 +2,9 @@
 #define SIGNAL_H
 
 #include <sys/types.h>
+#include <bits/signal.h>
+#include <bits/siginfo.h>
+#include <bits/types.h>
 
 /* Signal types */
 #define SIGHUP    1  /* Hangup */
