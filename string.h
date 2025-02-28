@@ -20,4 +20,6 @@ char *strtok(char *s, const char *delim);
 void *memcpy(void *dest, const void *src, size_t n);
 char *strdup(const char *s);
 
+char *stpcpy(char *dest, const char *src);
+
 #endif
