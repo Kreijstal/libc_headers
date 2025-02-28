@@ -1,0 +1,1 @@
+#define __TIMESIZE 64
