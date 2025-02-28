@@ -16,4 +16,8 @@ size_t strspn(const char *s, const char *accept);
 size_t strcspn(const char *s, const char *reject);
 char *strtok(char *s, const char *delim);
 
+/* Memory and string duplication functions */
+void *memcpy(void *dest, const void *src, size_t n);
+char *strdup(const char *s);
+
 #endif
