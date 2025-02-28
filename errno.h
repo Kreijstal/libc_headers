@@ -3,10 +3,6 @@
 
 #include <sys/types.h>
 
-#ifdef __cplusplus
-extern "C" {
-#endif
-
 extern int errno;
 
 #define EPERM		 1	/* Operation not permitted */
