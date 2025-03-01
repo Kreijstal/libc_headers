@@ -1,7 +1,9 @@
 #ifndef _TIME_H
 #define _TIME_H
 
-#include <sys/types.h> /* for time_t */
+typedef long time_t;
+
+
 
 /* Time structure */
 struct timespec {
