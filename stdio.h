@@ -1,6 +1,8 @@
 #ifndef STDIO_H
 #define STDIO_H
 
+#include <stddef.h>
+
 typedef struct FILE FILE;
 extern FILE *stdout;
 int printf(const char *fmt, ...);
