@@ -4,6 +4,8 @@
 #include <sys/types.h>
 #include <time.h>
 
+typedef long suseconds_t;
+
 #ifdef __cplusplus
 extern "C" {
 #endif
