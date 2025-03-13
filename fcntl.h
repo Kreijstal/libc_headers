@@ -3,6 +3,8 @@
 
 #include <sys/types.h>
 
+typedef unsigned int mode_t;
+
 /* File access modes */
 #define O_RDONLY    00
 #define O_WRONLY    01
